@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>Twitch Tv</title>
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="me" href="https://twitter.com/zeyadetman">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <form>
+                <label class="custom-control custom-radio" onclick="displayall()">
+                            <input type="radio" name="radiobtn" id="radio1" class="custom-control-input" value="all" checked>
+                            <span class="custom-control-indicator all"></span>
+                            <span class="custom-control-description">All</span>
+                          </label>
+                <label class="custom-control custom-radio" onclick="online()">
+                            <input type="radio" name="radiobtn" id="radio2" class="custom-control-input" value="online">
+                            <span class="custom-control-indicator online"></span>
+                            <span class="custom-control-description">Online</span>
+                          </label>
+                <label class="custom-control custom-radio" onclick="offline()">
+                                <input type="radio" name="radiobtn" id="radio3" class="custom-control-input" value="offline">
+                                <span class="custom-control-indicator offline"></span>
+                                <span class="custom-control-description">Offline</span>
+                              </label>
+            </form>
+        </div>
+        <div class="col-md-12 row channels">
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
