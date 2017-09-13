@@ -69,7 +69,7 @@
                  $(`.item${id}`).css('display', 'none');
              } else {
                  $(`.item${id}`).css('display', 'flex');
-                 $(`.view${id}`).html(`Viewers: ${res['viewers']}`);
+                 $(`.view${id}`).html(`${res['viewers']}`);
              }
          }
      });
